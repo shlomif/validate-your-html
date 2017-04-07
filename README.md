@@ -43,7 +43,15 @@ A [DuckDuckGo search](https://duckduckgo.com/?q=html+validator&ia=web) for
 [Google search](https://encrypted.google.com/search?hl=en&q=html%20validator)
 will yield many results. Note that you should first pick up a verion of the
 HTML or XHTML standards (such as [HTML5](https://en.wikipedia.org/wiki/HTML5)
-or [XHTML 1.1](https://www.w3.org/TR/xhtml11/) and use the correct
+or [XHTML 1.1](https://www.w3.org/TR/xhtml11/)) and use their correct
 [Doctype](https://en.wikipedia.org/wiki/Document_type_declaration) to indicate
-that this is the case. Different pages may be under different versions of
-the standard.
+that you are using them. Different HTML pages (even ones on the same site)
+may adhere to different versions  of the standards, and validate accordingly,
+as long as they specify the appropriate doctypes.
+
+## Links
+
+* [Coding Horror: “HTML Validation: Does It Matter?”](https://blog.codinghorror.com/html-validation-does-it-matter/)
+* [Perl Elements to Avoid](http://perl-begin.org/tutorials/bad-elements/) - mentions other good practices.
+* [tidyall](https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall) - an all-in-one linter, validator and tidier.
+
