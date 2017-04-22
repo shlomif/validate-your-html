@@ -25,7 +25,7 @@ on which it was tested) is not a good idea.
 * The browsers may not display
 this page correctly in future versions, or a new browser may do
 things differently.
-* (For instance, when MSIE 5.0 came, it was more standards-compliant than MSIE 4.x and as a result many sites that worked with IE before became broken. This happened in the release of MSIE 6.0, and in Windows XP Service Pack 2, as well.)
+* (For instance, when [MSIE](https://en.wikipedia.org/wiki/Internet_Explorer) 5.0 came, it was more standards-compliant than MSIE 4.x and as a result many sites that worked with IE before became broken. This happened in the release of MSIE 6.0, and in Windows XP Service Pack 2, as well.)
 * The browser has a tough job as it is, so you shouldn't make it tougher by sending it mal-formed input.
 
 ### Caveats
@@ -41,7 +41,7 @@ addition to validating them.
 A [DuckDuckGo search](https://duckduckgo.com/?q=html+validator&ia=web) for
 “html validator” as well as a
 [Google search](https://encrypted.google.com/search?hl=en&q=html%20validator)
-will yield many results. Note that you should first pick up a verion of the
+will yield many results. Note that you should first choose a version of the
 HTML or XHTML standards (such as [HTML5](https://en.wikipedia.org/wiki/HTML5)
 or [XHTML 1.1](https://www.w3.org/TR/xhtml11/)) and use their correct
 [Doctype](https://en.wikipedia.org/wiki/Document_type_declaration) to indicate
