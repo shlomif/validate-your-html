@@ -49,9 +49,20 @@ that you are using them. Different HTML pages (even ones on the same site)
 may adhere to different versions  of the standards, and validate accordingly,
 as long as they specify the appropriate doctypes.
 
+### Some prominent validators
+
+**TODO: FILL IN**
+
+* W3C validator
+* tidyp
+
+## The more general case: linting and validating
+
+**TODO: FILL IN**
+
 ## Links
 
 * [Coding Horror: “HTML Validation: Does It Matter?”](https://blog.codinghorror.com/html-validation-does-it-matter/)
 * [Perl Elements to Avoid](http://perl-begin.org/tutorials/bad-elements/) - mentions other good practices.
 * [tidyall](https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall) - an all-in-one linter, validator and tidier.
-
+* [check-all-the-things](http://bonedaddy.net/pabs3/log/2016/07/04/check-all-the-things/) - another all-in-one checker, this time from the Debian project.
