@@ -2,7 +2,8 @@
 
 ## Motivation
 
-To educate the world about the benefits of making sure their HTML/etc. markup
+To educate the world about the benefits of making sure their
+[HTML](http://en.wikipedia.org/wiki/HTML) 0/ etc. markup
 is valid according to the web standards.
 
 ## What is valid HTML markup?
@@ -46,7 +47,7 @@ HTML or XHTML standards (such as [HTML5](https://en.wikipedia.org/wiki/HTML5)
 or [XHTML 1.1](https://www.w3.org/TR/xhtml11/)) and use their correct
 [Doctype](https://en.wikipedia.org/wiki/Document_type_declaration) to indicate
 that you are using them. Different HTML pages (even ones on the same site)
-may adhere to different versions  of the standards, and validate accordingly,
+may adhere to different versions of the standards, and validate accordingly,
 as long as they specify the appropriate doctypes.
 
 ### Some prominent validators
@@ -58,7 +59,10 @@ as long as they specify the appropriate doctypes.
 
 ## The more general case: linting and validating
 
-**TODO: FILL IN**
+WWW Markup Validation is a specific case of
+[“linting”](http://stackoverflow.com/questions/8503559/what-is-linting) where
+one runs a program to make sure bad idioms are not present in one’s code or
+markup. There are links to more linters and checkers below.
 
 ## Links
 
