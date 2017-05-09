@@ -70,3 +70,4 @@ markup. There are links to more linters and checkers below.
 * [Perl Elements to Avoid](http://perl-begin.org/tutorials/bad-elements/) - mentions other good practices.
 * [tidyall](https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall) - an all-in-one linter, validator and tidier.
 * [check-all-the-things](http://bonedaddy.net/pabs3/log/2016/07/04/check-all-the-things/) - another all-in-one checker, this time from the Debian project.
+* [List of tools for static code analysis](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) - on Wikipedia.
