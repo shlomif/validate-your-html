@@ -52,8 +52,6 @@ as long as they specify the appropriate doctypes.
 
 ### Some prominent validators
 
-**TODO: FILL IN**
-
 * [The W3C validator](https://validator.w3.org/)
 * [tidyp](http://tidyp.com/) - a library and a command-line program for validating and fixing HTML. It is recommended to run it with all warnings displayed.
 
