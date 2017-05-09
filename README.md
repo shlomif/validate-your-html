@@ -69,3 +69,18 @@ markup. There are links to more linters and checkers below.
 * [tidyall](https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall) - an all-in-one linter, validator and tidier.
 * [check-all-the-things](http://bonedaddy.net/pabs3/log/2016/07/04/check-all-the-things/) - another all-in-one checker, this time from the Debian project.
 * [List of tools for static code analysis](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) - on Wikipedia.
+
+## Licence
+
+This document is Copyright by Shlomi Fish, 2017, and is available
+under the
+terms of <a rel="license"
+href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
+Attribution License 4.0 Unported</a> (or at your option any
+later version of that licence).
+
+For securing additional rights, please contact
+<a href="http://www.shlomifish.org/me/contact-me/">Shlomi Fish</a>
+and see <a href="http://www.shlomifish.org/meta/copyrights/">the
+explicit requirements</a> that are being spelt from abiding by
+that licence.
