@@ -70,6 +70,11 @@ markup. There are links to more linters and checkers below.
 * [check-all-the-things](http://bonedaddy.net/pabs3/log/2016/07/04/check-all-the-things/) - another all-in-one checker, this time from the Debian project.
 * [List of tools for static code analysis](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) - on Wikipedia.
 
+### Project Links
+
+* [Canonical URL for the document](http://www.shlomifish.org/philosophy/computers/web/validate-your-html/) - on Shlomi Fish’s home site. That page should validate as XHTML 1.1.
+* [GitHub repository](https://github.com/shlomif/validate-your-html) - contains the Markdown sources, an issue tracker and more resources. Contributions are welcome. Currently, that page does not validate, but it appears to be GitHub’s fault.
+
 ## Licence
 
 This document is Copyright by Shlomi Fish, 2017, and is available
