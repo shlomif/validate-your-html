@@ -9,7 +9,7 @@ is valid according to the web standards.
 ## What is valid HTML markup?
 
 Most web browsers will accept various variations in the HTML markup language,
-but often will not know exactly what to do unless the markup is well-formed
+but often will not know exactly what to do, unless the markup is well-formed
 and strictly abides by the WWW standards. To make it easier for browsers,
 for other HTML consumers and processors, and for general good measure, one
 should make sure the HTML **validates** and thus is **valid**.
@@ -68,6 +68,8 @@ markup. There are links to more linters and checkers below.
 * [Perl Elements to Avoid](http://perl-begin.org/tutorials/bad-elements/) - mentions other good practices.
 * [tidyall](https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall) - an all-in-one linter, validator and tidier.
 * [check-all-the-things](http://bonedaddy.net/pabs3/log/2016/07/04/check-all-the-things/) - another all-in-one checker, this time from the Debian project.
+* [HTML Dog](http://htmldog.com/) - Recommended HTML, CSS, and JavaScript tutorials.
+* [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/) - Recommended reference and tutorials for web technologies.
 * [List of tools for static code analysis](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) - on Wikipedia.
 
 ### Project Links
