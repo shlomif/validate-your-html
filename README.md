@@ -2,8 +2,8 @@
 
 ## Motivation
 
-To educate the world about the benefits of making sure their
-[HTML](http://en.wikipedia.org/wiki/HTML) 0/ etc. markup
+To educate the world about the benefits of making sure their markup of
+[HTML](http://en.wikipedia.org/wiki/HTML) and other web and non-web languages
 is valid according to the web standards.
 
 ## What is valid HTML markup?
