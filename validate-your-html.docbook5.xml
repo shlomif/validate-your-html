@@ -54,7 +54,7 @@ that licence.
 To educate the world about the benefits of making sure their
 markup of
 <link xlink:href="http://en.wikipedia.org/wiki/HTML">HTML</link>
-and other web and non-web languages is valid according to the
+and other Web and non-Web languages is valid according to the
 web standards.
 </para>
 </section>
@@ -79,7 +79,7 @@ should make sure the HTML
 <itemizedlist spacing="compact">
 <listitem>
 <para>
-By validating your pages you make sure the structure of the
+By validating your pages, you make sure the structure of the
 document is acceptable to standards-compliant browsers.
 </para>
 </listitem>
@@ -91,7 +91,7 @@ browser is going to react.
 </listitem>
 <listitem>
 <para>
-Saying that <quote>I don't know if my site is standards
+Saying that <quote>I don’t know if my site is standards
 compliant or not, but it looks good in all browsers.</quote>
 (or just in one browser and one platform on which it was
  tested) is not a good idea.
@@ -106,11 +106,12 @@ versions, or a new browser may do things differently.
 <listitem>
 <para>
 (For instance, when
- <link xlink:href="https://en.wikipedia.org/wiki/Internet_Explorer">MSIE</link>
- 5.0 came, it was more standards-compliant than MSIE 4.x and
- as a result many sites that worked with IE before became
- broken. This happened in the release of MSIE 6.0, and in
- Windows XP Service Pack 2, as well.)
+<link xlink:href="https://en.wikipedia.org/wiki/Internet_Explorer">Microsoft
+Internet Explorer (MSIE)</link>
+version 5.0 came, it was more standards-compliant than MSIE 4.x and
+as a result many sites that worked with IE before became
+broken. This happened in the release of MSIE 6.0, and in
+Windows XP Service Pack 2, as well.)
 </para>
 </listitem>
 <listitem>
@@ -132,14 +133,14 @@ Standards-compliance is not a panacea.
 <listitem>
 <para>
 Even if all the output from the site is
-standards-compliant it doesn't mean it will display
+standards-compliant. it doesn't mean it will display
 correctly.
 </para>
 </listitem>
 <listitem>
 <para>
 This is either because of bugs in the browsers, or because
-you haven't done the right thing.
+you have not done the right thing.
 </para>
 </listitem>
 <listitem>
@@ -163,8 +164,7 @@ search</link> for “html validator” as well as a
 search</link> will yield many results. Note that you should
 first choose a version of the HTML or XHTML standards (such as
 <link xlink:href="https://en.wikipedia.org/wiki/HTML5">HTML5</link>
-or <link xlink:href="https://www.w3.org/TR/xhtml11/">XHTML
-1.1</link>) and use their correct
+or <link xlink:href="https://en.wikipedia.org/wiki/HTML5#XHTML_5_(XML-serialized_HTML_5)">XHTML5</link>) and use their correct
 <link xlink:href="https://en.wikipedia.org/wiki/Document_type_declaration">Doctype</link>
 to indicate that you are using them. Different HTML pages (even
 ones on the same site) may adhere to different versions of the
@@ -185,7 +185,7 @@ validator</link>
 </listitem>
 <listitem>
 <para>
-<link xlink:href="http://tidyp.com/">tidyp</link> - a
+<link xlink:href="http://www.html-tidy.org/">HTML Tidy</link> - a
 library and a command-line program for validating and
 fixing HTML. It is recommended to run it with all warnings
 displayed.
@@ -209,6 +209,11 @@ in one’s code or markup. There are links to more linters and
 checkers below.
 </para>
 
+<para>
+Also see
+<link xlink:href="https://github.com/caramelomartins/awesome-linters">"awesome linters" on GitHub</link> which lists many good linters.
+</para>
+
 </section>
 
 <section xml:id="links">
@@ -225,7 +230,7 @@ Horror: “HTML Validation: Does It Matter?”</link>
 <listitem>
 <para>
 <link xlink:href="http://perl-begin.org/tutorials/bad-elements/">Perl
-Elements to Avoid</link> - mentions other good practices.
+Elements to Avoid</link> and <link xlink:href="https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#what-are-some-best-practices-in-programming-that-i-should-adopt">“What are some best practices in programming that I should adopt?”</link> - mention other good practices.
 </para>
 </listitem>
 <listitem>
@@ -243,15 +248,15 @@ project.
 </listitem>
 <listitem>
 <para>
-<link xlink:href="http://htmldog.com/">HTML Dog</link> -
-Recommended HTML, CSS, and JavaScript tutorials.
+<link xlink:href="https://developer.mozilla.org/en-US/">Mozilla
+Developer Network (MDN)</link> - Recommended reference and
+tutorials for Web technologies.
 </para>
 </listitem>
 <listitem>
 <para>
-<link xlink:href="https://developer.mozilla.org/en-US/">Mozilla
-Developer Network (MDN)</link> - Recommended reference and
-tutorials for Web technologies.
+<link xlink:href="http://htmldog.com/">HTML Dog</link> -
+Recommended HTML, CSS, and JavaScript tutorials.
 </para>
 </listitem>
 <listitem>
