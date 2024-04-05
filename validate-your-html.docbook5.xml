@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="docbook-css/driver.css" type="text/css"?>
+<article version="5.0" xml:id="index" xml:lang="en-GB" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook">
+
+<info>
+
+<title>Validate Your HTML Markup</title>
+
+<authorgroup>
+<author>
+<personname>
+<firstname>Shlomi</firstname>
+<surname>Fish</surname>
+</personname>
+<affiliation>
+<address>
+<email>shlomif@shlomifish.org</email>
+<uri type="homepage" xlink:href="http://www.shlomifish.org/" />
+</address>
+</affiliation>
+</author>
+</authorgroup>
+
+<copyright>
+<year>2017</year>
+<holder>Shlomi Fish</holder>
+</copyright>
+
+<legalnotice xml:id="main_legal_notice">
+
+<para>
+This document is copyrighted by Shlomi Fish under the <link
+xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+Attribution Unported License ( CC-by ) version 4.0</link> (or, at your option,
+any greater version).
+</para>
+
+<para>
+For securing additional rights, please contact
+<link xlink:href="http://www.shlomifish.org/me/contact-me/">Shlomi
+Fish</link> and see
+<link xlink:href="http://www.shlomifish.org/meta/copyrights/">the
+explicit requirements</link> that are being spelt from abiding by
+that licence.
+</para>
+
+</legalnotice>
+
+</info>
+
+<section xml:id="motivation">
+<title>Motivation</title>
+<para>
+To educate the world about the benefits of making sure their
+markup of
+<link xlink:href="http://en.wikipedia.org/wiki/HTML">HTML</link>
+and other web and non-web languages is valid according to the
+web standards.
+</para>
+</section>
+
+<section xml:id="what-is-valid-html-markup">
+<title>What is valid HTML markup?</title>
+<para>
+Most web browsers will accept various variations in the HTML
+markup language, but often will not know exactly what to do,
+unless the markup is well-formed and strictly abides by the WWW
+standards. To make it easier for browsers, for other HTML
+consumers and processors, and for general good measure, one
+should make sure the HTML
+<emphasis role="strong">validates</emphasis> and thus is
+<emphasis role="strong">valid</emphasis>.
+</para>
+</section>
+
+<section xml:id="why-validate">
+<title>Why validate?</title>
+
+<itemizedlist spacing="compact">
+<listitem>
+<para>
+By validating your pages you make sure the structure of the
+document is acceptable to standards-compliant browsers.
+</para>
+</listitem>
+<listitem>
+<para>
+When you deviate from the standard, you don't know how the
+browser is going to react.
+</para>
+</listitem>
+<listitem>
+<para>
+Saying that <quote>I don't know if my site is standards
+compliant or not, but it looks good in all browsers.</quote>
+(or just in one browser and one platform on which it was
+ tested) is not a good idea.
+</para>
+</listitem>
+<listitem>
+<para>
+The browsers may not display this page correctly in future
+versions, or a new browser may do things differently.
+</para>
+</listitem>
+<listitem>
+<para>
+(For instance, when
+ <link xlink:href="https://en.wikipedia.org/wiki/Internet_Explorer">MSIE</link>
+ 5.0 came, it was more standards-compliant than MSIE 4.x and
+ as a result many sites that worked with IE before became
+ broken. This happened in the release of MSIE 6.0, and in
+ Windows XP Service Pack 2, as well.)
+</para>
+</listitem>
+<listitem>
+<para>
+The browser has a tough job as it is, so you shouldn't make
+it tougher by sending it mal-formed input.
+</para>
+</listitem>
+</itemizedlist>
+
+<section xml:id="caveats">
+<title>Caveats</title>
+<itemizedlist spacing="compact">
+<listitem>
+<para>
+Standards-compliance is not a panacea.
+</para>
+</listitem>
+<listitem>
+<para>
+Even if all the output from the site is
+standards-compliant it doesn't mean it will display
+correctly.
+</para>
+</listitem>
+<listitem>
+<para>
+This is either because of bugs in the browsers, or because
+you haven't done the right thing.
+</para>
+</listitem>
+<listitem>
+<para>
+So, it is important to test the pages in as many browsers
+as possible, in addition to validating them.
+</para>
+</listitem>
+</itemizedlist>
+</section>
+
+</section>
+
+<section xml:id="how-to-validate">
+<title>How to validate?</title>
+<para>
+A
+<link xlink:href="https://duckduckgo.com/?q=html+validator&amp;ia=web">DuckDuckGo
+search</link> for “html validator” as well as a
+<link xlink:href="https://encrypted.google.com/search?hl=en&amp;q=html%20validator">Google
+search</link> will yield many results. Note that you should
+first choose a version of the HTML or XHTML standards (such as
+<link xlink:href="https://en.wikipedia.org/wiki/HTML5">HTML5</link>
+or <link xlink:href="https://www.w3.org/TR/xhtml11/">XHTML
+1.1</link>) and use their correct
+<link xlink:href="https://en.wikipedia.org/wiki/Document_type_declaration">Doctype</link>
+to indicate that you are using them. Different HTML pages (even
+ones on the same site) may adhere to different versions of the
+standards, and validate accordingly, as long as they specify the
+appropriate doctypes.
+</para>
+
+<section xml:id="some-prominent-validators">
+
+<title>Some prominent validators</title>
+
+<itemizedlist spacing="compact">
+<listitem>
+<para>
+<link xlink:href="https://validator.w3.org/">The W3C
+validator</link>
+</para>
+</listitem>
+<listitem>
+<para>
+<link xlink:href="http://tidyp.com/">tidyp</link> - a
+library and a command-line program for validating and
+fixing HTML. It is recommended to run it with all warnings
+displayed.
+</para>
+</listitem>
+</itemizedlist>
+
+</section>
+
+</section>
+
+<section xml:id="the-more-general-case-linting-and-validating">
+
+<title>The more general case: linting and validating</title>
+
+<para>
+WWW Markup Validation is a specific case of
+<link xlink:href="http://stackoverflow.com/questions/8503559/what-is-linting">“linting”</link>
+where one runs a program to make sure bad idioms are not present
+in one’s code or markup. There are links to more linters and
+checkers below.
+</para>
+
+</section>
+
+<section xml:id="links">
+
+<title>Links</title>
+
+<itemizedlist spacing="compact">
+<listitem>
+<para>
+<link xlink:href="https://blog.codinghorror.com/html-validation-does-it-matter/">Coding
+Horror: “HTML Validation: Does It Matter?”</link>
+</para>
+</listitem>
+<listitem>
+<para>
+<link xlink:href="http://perl-begin.org/tutorials/bad-elements/">Perl
+Elements to Avoid</link> - mentions other good practices.
+</para>
+</listitem>
+<listitem>
+<para>
+<link xlink:href="https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall">tidyall</link>
+- an all-in-one linter, validator and tidier.
+</para>
+</listitem>
+<listitem>
+<para>
+<link xlink:href="http://bonedaddy.net/pabs3/log/2016/07/04/check-all-the-things/">check-all-the-things</link>
+- another all-in-one checker, this time from the Debian
+project.
+</para>
+</listitem>
+<listitem>
+<para>
+<link xlink:href="http://htmldog.com/">HTML Dog</link> -
+Recommended HTML, CSS, and JavaScript tutorials.
+</para>
+</listitem>
+<listitem>
+<para>
+<link xlink:href="https://developer.mozilla.org/en-US/">Mozilla
+Developer Network (MDN)</link> - Recommended reference and
+tutorials for Web technologies.
+</para>
+</listitem>
+<listitem>
+<para>
+<link xlink:href="http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis">List
+of tools for static code analysis</link> - on Wikipedia.
+</para>
+</listitem>
+</itemizedlist>
+
+<section xml:id="project-links">
+
+<title>Project Links</title>
+
+<itemizedlist spacing="compact">
+<listitem>
+<para>
+<link xlink:href="http://www.shlomifish.org/philosophy/computers/web/validate-your-html/">Canonical
+URL for the document</link> - on Shlomi Fish’s home site.
+That page should validate as XHTML5.
+</para>
+</listitem>
+<listitem>
+<para>
+<link xlink:href="https://github.com/shlomif/validate-your-html">GitHub
+repository</link> - contains the DocBook sources, an
+issue tracker and more resources. Contributions are
+welcome. Currently, that page does not validate, but it
+appears to be GitHub’s fault.
+</para>
+</listitem>
+</itemizedlist>
+
+</section>
+
+</section>
+
+</article>
